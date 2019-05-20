@@ -1,4 +1,4 @@
-package gabrusev;
+package gabrusev.lesson2;
 /*тут
 /
  */

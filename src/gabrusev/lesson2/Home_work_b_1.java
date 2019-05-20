@@ -1,4 +1,4 @@
-package gabrusev;
+package gabrusev.lesson2;
 
 import java.util.Scanner;
 

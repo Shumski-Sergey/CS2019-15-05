@@ -1,4 +1,4 @@
-package gabrusev;
+package gabrusev.lesson2;
 
 public class Home_work_b_2 {
 
