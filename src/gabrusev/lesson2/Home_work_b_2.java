@@ -9,7 +9,7 @@ public class Home_work_b_2 {
 
     public static void main(String[] args) {
 
-        int result = - 1 + 3 - 9 + 27 ;
+        int result = - a + b - c + d ;
 
         System.out.println(result);
     }
