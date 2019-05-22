@@ -1,6 +1,6 @@
 package gabrusev.lesson4;
 
-public class lesson4_a {
+public class lesson4_a_1 {
     public static void main(String[] args) {
         String a = "Я изучаю программирование";
         String b = "Меня интересует высокая зарплата";
