@@ -15,4 +15,3 @@ public class TaskC1 {
             return f;
         }
     }
-}
