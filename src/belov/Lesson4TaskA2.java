@@ -1,34 +1,35 @@
 package belov;
 
-import java.io.IOException;
+import java.util.Scanner;
 
 public class Lesson4TaskA2 {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args){
 
-            char monthNum;
+            int dayNum;
+            Scanner sc = new Scanner(System.in);
             System.out.print("Введите номер дня недели: ");
-            monthNum = (char) System.in.read();
+            dayNum = sc.nextInt();
 
-            switch (monthNum) {
-                case '1':
+            switch (dayNum) {
+                case 1:
                     System.out.print("Понедельник");
                     break;
-                case '2':
+                case 2:
                     System.out.print("Вторник");
                     break;
-                case '3':
+                case 3:
                     System.out.print("Среда");
                     break;
-                case '4':
+                case 4:
                     System.out.print("Четверг");
                     break;
-                case '5':
+                case 5:
                     System.out.print("Пятница");
                     break;
-                case '6':
+                case 6:
                     System.out.print("Суббота");
                     break;
-                case '7':
+                case 7:
                     System.out.print("Воскресенье");
                     break;
                 default:
