@@ -29,7 +29,7 @@ public class TaskA2switch {
                 System.out.println("Воскреенье");
                 break;
                 default:
-                    System.out.println("Такого дня недели не существует!");
+                    System.out.println("Такого дня недели не существует!!!");
         }
 
     }

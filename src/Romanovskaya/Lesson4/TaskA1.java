@@ -28,7 +28,7 @@ public class TaskA1 {
                System.out.println("Воскреенье");
            }
            else {
-               System.out.println("Такого дня недели не существует");
+               System.out.println("Такого дня недели не существует!");
            }
 
        }

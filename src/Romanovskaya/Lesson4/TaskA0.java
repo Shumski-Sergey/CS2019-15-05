@@ -32,8 +32,8 @@ public class TaskA0 {
             System.out.println("Меня интереует выокая зарплата!");
         }
         else if (x == 10) {
-            System.out.println("Я изучаю программирование");
-        }
+            System.out.println("Я изучаю программирование!");
+    }
     }
 }
 

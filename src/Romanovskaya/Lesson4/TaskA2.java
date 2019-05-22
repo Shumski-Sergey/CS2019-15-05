@@ -17,7 +17,7 @@ public class TaskA2 {
         if (a == c) {
             System.out.println(a + " " + c);
         } else {
-            System.out.println("" + "");
+            System.out.println( " " );
         }
 
     }
