@@ -21,7 +21,7 @@ public class Lesson3TaskA1 {
         sumD = (double) num1 + (double) num2;
         subD = (double) num1 - (double) num2;
         multD = (double) num1 * (double) num2;
-        devD = (double) num1 / (double) num2;
+        devD = (double) num1 / num2;
         remD = (double) num1 % (double) num2;
 
         System.out.print(sum + " " + sub + " " + mult + " " + dev + " " + rem + " " + sumD + " " + subD + " "
