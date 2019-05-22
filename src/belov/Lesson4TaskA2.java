@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class Lesson4TaskA2 {
     public static void main(String[] args){
 
-            int monthNum;
+            int dayNum;
             Scanner sc = new Scanner(System.in);
             System.out.print("Введите номер дня недели: ");
-            monthNum = sc.nextInt();
+            dayNum = sc.nextInt();
 
-            switch (monthNum) {
+            switch (dayNum) {
                 case 1:
                     System.out.print("Понедельник");
                     break;
