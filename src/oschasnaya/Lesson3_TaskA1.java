@@ -3,23 +3,22 @@ package oschasnaya;
 import java.util.Scanner;
 
 public class Lesson3_TaskA1 {
-
-    public static void main (String[] args) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner (System.in);
         System.out.println("Введите числа");
-        int l = sc.nextInt();
-        int m = sc.nextInt();
-        int sum = l + m;
-        int sub = l - m;
-        int mul = l * m;
-        int div = l / m;
-        int mod = l % m;
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int sum = a + b;
+        int sub = a - b;
+        int mul = a * b;
+        int div = a - b;
+        int mod = a % b;
         System.out.println(sum + ", " + sub + ", " + mul + ", " + div + ", " + mod);
-        double dsum = l + m;
-        double dsub = l - m;
-        double dmul = l * m;
-        double ddiv = l / m;
-        double dmod = l % m;
+        double dsum = a + b;
+        double dsub = a - b;
+        double dmul = a * b;
+        double ddiv = a / b;
+        double dmod = a % b;
         System.out.println(dsum + ", " + dsub + ", " + dmul + ", " + ddiv + ", " + dmod);
     }
 }
