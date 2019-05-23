@@ -12,7 +12,7 @@ public class lesson4_c_1 {
         } else {
             for (int month = 0; month <= 14; month++){
                 if (month > 5 && month < 9) {
-                    String m = null;
+                    String m;
                     if (month == 6) {
                         m = "Июнь";
                     } else if (month == 7) {
