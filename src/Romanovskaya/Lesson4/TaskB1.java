@@ -3,17 +3,21 @@ package Romanovskaya.Lesson4;
 import java.util.Scanner;
 
 public class TaskB1 {
-    public static void main(System[] args) {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        while (a > 0) {
-            a++;
+        int number = sc.nextInt();
+        int horizontal;
+        int vertical=1;
+
+        while (vertical <= number) {
+            horizontal = 1;
+            while (horizontal <= number) {
+                System.out.print(vertical * horizontal + " ");
+                horizontal++;
+            }
+            System.out.println();
+            vertical++;
         }
-        while (b > 0) {
-            b++;
-        }
-        System.out.println(a * b + " ");
     }
 }
 
