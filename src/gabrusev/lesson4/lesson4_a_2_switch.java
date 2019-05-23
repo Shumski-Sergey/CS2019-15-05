@@ -1,11 +1,8 @@
 package gabrusev.lesson4;
-/*
-при вводе чисел от 10 до 79 выдает дни недели
- */
 
 import java.io.IOException;
 
-public class lesson4_a_2 {
+public class lesson4_a_2_switch {
     public static void main(String[] args)
             throws IOException {
         int b = System.in.read();
