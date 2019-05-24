@@ -1,16 +1,12 @@
-package belov;
+package gabrusev.lesson4;
 
-import java.util.Scanner;
+import java.io.IOException;
 
-public class Lesson4TaskA2 {
-    public static void main(String[] args){
-
-            int dayNum;
-            Scanner sc = new Scanner(System.in);
-            System.out.print("Введите номер дня недели: ");
-            dayNum = sc.nextInt();
-
-            switch (dayNum) {
+public class lesson4_a_2_switch {
+    public static void main(String[] args)
+            throws IOException {
+        int b = System.in.read();
+            switch (b) {
                 case 1:
                     System.out.print("Понедельник");
                     break;
@@ -33,10 +29,8 @@ public class Lesson4TaskA2 {
                     System.out.print("Воскресенье");
                     break;
                 default:
-                    System.out.print("Такого дня не существует");
-
+                    System.out.println("Такого дня недели не существует");
+                    break;
             }
-
-
+        }
     }
-}

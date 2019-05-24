@@ -7,17 +7,20 @@ public class TaskC1 {
         Scanner scan1 = new Scanner(System.in);
         System.out.print("Какую вы хотите зарплату в $$$?");
         int salary = scan1.nextInt();
-        if (salary < 300) {
+        int min = 300;
+        int max = 3000;
+        if (salary < min) {
             System.out.println("Мы вам перезвоним");
         }
-        if (salary > 3000) {
+        if (salary > max) {
             System.out.println("Мы вам перезвоним!");
-        } else {
+        }
+        else {
             Scanner scan2 = new Scanner(System.in);
             System.out.print("Выберете номер меяца");
             int month = scan1.nextInt();
 
-            for (month = 1; month < 6; month++) {
+            for ( month=1; month <6; month++) {
                 System.out.println(salary + (salary * 0.5));
             }
                 for (month = 6; month <7; month++) {
