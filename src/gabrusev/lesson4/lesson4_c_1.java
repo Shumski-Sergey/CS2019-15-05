@@ -26,6 +26,9 @@ public class lesson4_c_1 {
                 } else {
                     System.out.println(zp * 1.5 + "$");
                 }
+                if (zp == 666 || (zp*1.5) == 666 ){
+                    break;
+                }
             }
         }
     }
