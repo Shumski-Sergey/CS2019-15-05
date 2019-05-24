@@ -1,4 +1,4 @@
-package oschasnaya;
+package oschasnaya.L2;
 
 public class Lesson2_TaskB2 {
     private static int a = 1;
