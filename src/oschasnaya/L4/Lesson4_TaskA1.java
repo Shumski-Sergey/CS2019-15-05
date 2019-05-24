@@ -1,4 +1,4 @@
-package oschasnaya;
+package oschasnaya.L4;
 
 public class Lesson4_TaskA1 {
     public static void main(String[] args) {

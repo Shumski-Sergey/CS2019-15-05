@@ -1,4 +1,4 @@
-package oschasnaya;
+package oschasnaya.L4;
 
 import java.util.Scanner;
 
