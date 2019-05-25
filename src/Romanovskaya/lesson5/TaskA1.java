@@ -12,7 +12,7 @@ public class TaskA1 {
          BufferedReader reader = new BufferedReader ( new InputStreamReader(System.in));
          Reader r = new InputStreamReader(System.in);
          ArrayList list = new ArrayList();
-         for ( int i = 0; i <11; i++)
+         for ( int i = 0; i <=10; i++)
          {
              String s = reader.readLine();
              list.add(s);
