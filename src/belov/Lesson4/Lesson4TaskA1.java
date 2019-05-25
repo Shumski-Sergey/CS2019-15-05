@@ -1,4 +1,4 @@
-package belov;
+package belov.Lesson4;
 
 public class Lesson4TaskA1 {
     public static void main(String[] args) {

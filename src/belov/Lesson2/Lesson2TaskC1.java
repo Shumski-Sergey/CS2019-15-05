@@ -1,4 +1,4 @@
-package belov;
+package belov.Lesson2;
 
 import java.util.Scanner;
 

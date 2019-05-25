@@ -1,8 +1,8 @@
-package belov;
+package belov.Lesson4;
 
 import java.util.Scanner;
 
-public class Lesson4TestA3 {
+public class Lesson4TaskA3 {
     public static void main(String[] args) {
 
         int num1, num2, num3;
