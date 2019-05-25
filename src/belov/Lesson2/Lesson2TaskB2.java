@@ -1,4 +1,4 @@
-package belov;
+package belov.Lesson2;
 
 public class Lesson2TaskB2 {
     private static int a = 1;
