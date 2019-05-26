@@ -14,11 +14,11 @@ public class lesson5_c_2 {
         }
 
         int t;
-        for (int i = 1; i < numbers.length; i++) {
-            for (int j = numbers.length - 1; j >= i; j--) {
-                if (numbers[j-1] < numbers[j]){
-                t = numbers[j - 1];
-                numbers[j - 1] = numbers[j];
+        for (int i = numbers.length - 1; i >= 0; i--) {
+            for (int j = 0; j < i; j++) {
+                if (numbers[j + 1] > numbers[j]){
+                t = numbers[j + 1];
+                numbers[j + 1] = numbers[j];
                 numbers[j] = t;
                 }
             }
