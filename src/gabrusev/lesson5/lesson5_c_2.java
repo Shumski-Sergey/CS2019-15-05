@@ -23,7 +23,7 @@ public class lesson5_c_2 {
                 }
             }
         }
-        for (int i = 0; i < numbers.length; i++) {
+        for (int i : numbers) {
                 System.out.println(numbers[i]);
         }
     }
