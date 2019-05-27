@@ -1,4 +1,4 @@
-package npresniakova;
+ package npresniakova;
 
 import java.util.Scanner;
 
