@@ -27,8 +27,8 @@ public class TaskB {
             Collections.addAll(arraysecond);
         }
 
-            System.out.println(arrayfirst);
-            System.out.println(arraysecond);
+            System.out.println("a=" + arrayfirst);
+            System.out.println("b=" +  arraysecond);
         }
     }
 
