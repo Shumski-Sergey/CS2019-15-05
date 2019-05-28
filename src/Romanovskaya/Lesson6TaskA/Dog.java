@@ -1,18 +1,18 @@
 package Romanovskaya.Lesson6TaskA;
 
 public class Dog {
+
     private int age;
-    private String name;
 
 
     public Dog (String name, int age) {
         this.name = name;
         this.age = age;
     }
-
-    public Dog(){
-
+    private String name;
+    public Dog() {
     }
+
 
     public int getAge() {
         return age;
